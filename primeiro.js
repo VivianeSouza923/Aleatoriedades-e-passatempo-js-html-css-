@@ -82,7 +82,7 @@ for (j = 0; j < 2; j++) {
 }*/
 
 // tipos de dados em JS
-
+/*
 var numero = 6;
 var decimal = 4.5;
 var string = "vivi";
@@ -96,4 +96,38 @@ var lista = ["vivi", "laranja", "ninho"];
 
 for (i in lista) {
     alert(lista[i]);
+}*/
+
+// CONSOLE LOG
+// console.log("ol");
+
+// FUNÇÕES
+/*
+
+function soma(a, b) {
+    console.log(a + b);
+}
+
+//soma(2, 2);
+
+function sub(a, b) {
+    return a - b;
+}
+
+var s = sub(5, 3);
+
+//console.log(s);
+
+function mult(a, b) {
+    return a * b;
+}
+
+console.log(mult(5, 5))*/
+
+// EVENTOS 
+// SÃO FORMAS DE INTERAÇÃO DA MINHA PÁGINA HTML COM O MEU SCRIPT
+// pesquise "eventos javascript"
+
+function mens(nome) {
+    alert("saia daqui " + nome);
 }
