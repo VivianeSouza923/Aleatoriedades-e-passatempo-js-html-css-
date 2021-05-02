@@ -127,7 +127,26 @@ console.log(mult(5, 5))*/
 // EVENTOS 
 // SÃO FORMAS DE INTERAÇÃO DA MINHA PÁGINA HTML COM O MEU SCRIPT
 // pesquise "eventos javascript"
-
+/*
 function mens(nome) {
     alert("saia daqui " + nome);
+}*/
+
+// DOM
+/*
+function mudaCor(cor) {
+    var elemento = document.getElementById("mensagem");
+    //elemento.style.color = cor;
+    elemento.style.backgroundColor = cor;
+}*/
+
+// validação de formulário
+
+function valida() {
+    var nome = document.getElementById('nome');
+    if (nome.value == "") {
+        alert("não pode estar em branco");
+    } else {
+        alert("tudo tranquilo");
+    }
 }
